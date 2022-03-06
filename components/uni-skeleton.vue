@@ -2,7 +2,6 @@
   <view
     class="uni-skeleton"
     :class="[animated ? 'uni-skeleton-animated' : '']"
-    v-bind="$attrs"
   >
     <template v-if="loading">
       <slot name="skeleton">
